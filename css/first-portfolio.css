@@ -1,0 +1,160 @@
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav-list{
+    width: 1000px;
+    height: 100px;
+    margin-inline: auto;
+    background-color: #A9927D;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 1em; 
+    margin-left: 20em;
+    position: relative;
+    top: -1em;
+    position: fixed;    
+}
+.first{
+    margin-left: -8em;
+    margin-top: 1em;
+}  
+.first a{
+    padding-top: 0.5em;
+    text-decoration: none;
+    font-size: 32px;
+    margin-left: 1em;
+    color: #ffffff;
+
+} 
+                 
+
+.nav-list ul{
+    display: flex ;
+    text-align: center;
+    padding: 0 2em;
+    margin: 0 5em;
+    list-style: none;
+}
+.nav-list li{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.nav-list li a{
+    padding: 0 0.5em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-list li a:hover{
+    color: #14b789;
+    text-decoration: underline;
+}
+section{
+    min-width: 100px;
+    min-height: 800px;
+    background-color: #14b789;
+    margin-top: 7em;
+}
+.img-1{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 2em 56em;
+}
+.img-1 img{
+    margin: 3em -6em;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: -2em 45em;
+    color: black;
+}
+.fa-solid{
+    margin: 1em 1em;
+
+}
+.number{
+    width: 150px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    margin: -3em 50em;
+    border-radius: 30px;
+    text-align: center;
+    padding: 0.8em 0;
+}
+.number a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.number:hover{
+    background-color: #ffffff;
+}
+.number a:hover{
+    color: #14b789;
+}
+.bearded-man{
+    margin-left: 4em;
+    margin-top: -20em;
+    display: flex;
+    gap: 2em;
+}
+.bearded-man img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bearded-man h1{
+    width: 400px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 44px;
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+    background-color: #fff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.freelance{
+    width: 600px;
+    height: 80px;
+    /* border: 4px solid black; */
+    margin: 1.5em 4em;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.freelance p{
+    font-size: 38px;
+    text-align: center;
+    padding-top: 0.3em;
+    color: #14b789;
+}
+
+.link-a{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 0.8em 0;
+    margin: 1em 5em;
+    background-color: #535da1;
+    border-radius: 50px;
+}
+.link-a a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.link-a:hover{
+    background-color: #14b789;
+}
